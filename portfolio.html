@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Artist Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <script src="script.js"></script>
+    <!-- <script src="scripts.js"></script> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/5v63Y3nTKW+qZMlT0Z/mTkfTJk4YqLvXvXQsKzTnFfYNhC+Wd/w0+dLZiGYiHGFWLs" crossorigin="anonymous"> -->
+ <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-fkHrBj19t6eBgC2qB+bw+LhDt1yQmBKF2qyWbw0gM+PfGgWgLvC0cZsGpTbXPuIhWyEbjCvQfHGX+bTdHn/W+dCqRxZMmNpIYiHvNvCUcWiJdSnTUYHhCzW4lT0sMmZiIaDVGYOuRDZVeRGtSgkYXvXfTqXLrHtYHvCtDc" crossorigin="anonymous"></script> -->
+
+</head>
+<script>
+  $(document).ready(function(){
+    $('.slider').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: false,
+      arrows: false
+    });
+  });
+</script>
+<body>
+    <!-- <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header> -->
+    <div class="container">
+        <div class="header">
+            <img src="/Users/himshikhachauhan/Documents/3D_Portfolio/WP/10 final.jpg" alt="Main Logo" class="logo">
+            <h2> <a href="main.html"> Real 3D Work </a> </h2>
+            <div class="nav">
+                <ul>
+                    <!-- <li><a href="main.html">Home</a></li> -->
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <main>
+
+        <div id="portfolio">
+            <h1>Portfolio</h1>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/01_Atri_Gate.jpg" alt="Portfolio Item 1"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                    <!-- <a href="/Users/himshikhachauhan/Documents/Lucky/Images/01_Atri_Gate.jpg"></a> -->
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/01_Kalhar_Gate_Day-Light.jpg" alt="Portfolio Item 2"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/02_ Atri_01_Entry-View.jpg" alt="Portfolio Item 3"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/02_Atri_Gate.jpg" alt="Portfolio Item 4"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/02_Kalhar_Gate_Night-Light.jpg" alt="Portfolio Item 5"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/02_Sankalp_Gate_Evening-Light.jpg" alt="Portfolio Item 6"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/03_Atri_Steps.jpg" alt="Portfolio Item 7"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/04_Atri_Club-House.jpg" alt="Portfolio Item 8"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/04_Kalhar_Club_House.jpg" alt="Portfolio Item 9"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/04_Sankalp_Gate_Night-Light.jpg" alt="Portfolio Item 10"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/05_ Atri_01_Club-House-View.jpg" alt="Portfolio Item 11"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/06_Atri_Club-House.jpg" alt="Portfolio Item 12"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/07_ Atri_01_Water-Tank-View.jpg" alt="Portfolio Item 13"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/07_Atri_Gaarden-Area.jpg" alt="Portfolio Item 14"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/07_Sankalp_Club-House_Entry.jpg" alt="Portfolio Item 15"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/08_Kalhar_Club_House_Night-Light.jpg" alt="Portfolio Item 16"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/08_Sankalp_Club-House_Entry.jpg" alt="Portfolio Item 17"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/09_Atri_01_Bird-Eye-View.jpg" alt="Portfolio Item 18"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/09_Kalhar_Club_House_Interior.jpg" alt="Portfolio Item 19"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/09_Sankalp_Club-House_Garden.jpg" alt="Portfolio Item 20"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/10_Kalhar_Club_House_Play-Ground.jpg" alt="Portfolio Item 21"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/11_Kalhar_Bird-Eye-View_Day-Light.jpg" alt="Portfolio Item 22"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/11_Sankalp_Bird-Eye-View_Night-Light.jpg" alt="Portfolio Item 23"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/12_Kalhar_Bird-Eye-View_Day-Light.jpg" alt="Portfolio Item 24"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/13_Kalhar_Bird-Eye-View_Day-Light.jpg" alt="Portfolio Item 25"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/14_Atri_Condo-Balcony.jpg" alt="Portfolio Item 26"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/17_Atri_Street.jpg" alt="Portfolio Item 27"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/20_Atri_Bird-Eye-View.jpg" alt="Portfolio Item 28"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/21_Atri_Bird-Eye-View.jpg" alt="Portfolio Item 29"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+                <!-- <div class="gallery-item">
+                    <img src="/Users/himshikhachauhan/Documents/Lucky/Images/Car_Render.jpg" alt="Portfolio Item 30">
+                </div> -->
+
+                <div class="gallery-item">
+                    <!-- Trigger the Modal -->
+                    <img id="myImg" src="/Users/himshikhachauhan/Documents/Lucky/Images/Car_Render.jpg" alt="Car"
+                    style="max-width:100%;cursor:pointer" onclick="onClick(this)" class="modal-hover-opacity">
+                </div>
+
+
+                    <!-- The Modal -->
+                <div id="modal01" class="modal" onclick="this.style.display='none'">
+                    <div class="modal-content2">
+                      <!-- The Close Button -->
+                      <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+                      <!-- Modal Content (The Image) -->
+                      <img class="modal-content" id="img01">
+                    <a class="prev" onclick="this.plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="this.plusSlides(1)">&#10095;</a>
+
+                      <!-- Modal Caption (Image Text) -->
+                      <div id="caption"></div>
+                  </div>
+                </div>
+
+
+            </div>
+        </div> 
+        
+
+    </main>
+    <footer>
+        <p>&copy; 2023 3D Artist. All rights reserved.</p>
+    </footer>
+</body>
+</html>
